@@ -1,0 +1,5 @@
+@include('Sponsor.include.head')
+  @include('flash')
+        @yield('content')
+@include('Sponsor.include.footer')
+@yield('scripts')
