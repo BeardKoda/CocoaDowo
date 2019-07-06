@@ -66,6 +66,7 @@
                                 <strong>{{ $errors->first('password') }}</strong>
                               </span>
                             @endif
+                            <input class="form-control" type="password" name="password_confirmation"placeholder="Password" required>
                             <div class="form-button">
                                 <button id="submit" type="submit" class="ibtn">Register</button> 
                                 <a href="forget8.html">Forget password?</a>
