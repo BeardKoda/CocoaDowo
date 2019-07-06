@@ -18,7 +18,7 @@ class product extends Model
         ];
 
     public function type_(){
-        return $this->hasOne('App\type', 'id', 'type');
+        return $this->hasOne('App\Type', 'id', 'type');
     }
 
     public function verify($request){

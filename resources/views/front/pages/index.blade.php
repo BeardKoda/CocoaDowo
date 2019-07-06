@@ -53,7 +53,7 @@
                                 </div>
                                 <div class="product-text">
                                     <h4><a href="{{route('product', $product->id)}}">{{$product->name}}</a></h4>
-                                    
+                                    <h6>{{$product->type_->name}}</h6>
                                     
                                     <div class="pro-price">
                                         <span>Funding Commtment: N50,000.00</span>
@@ -228,7 +228,7 @@
                 </div>
             </div>
             <!-- cta-area-start -->
-            <div class="cta-area  pt-115 pb-120" style="background-image:url(img/bg/bg2.jpg)">
+            <div class="cta-area  pt-115 pb-120" style="background-image:url(/front/img/bg/bg2.jpg)">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-10 col-lg-10 offset-lg-1 offset-xl-1">
