@@ -1,4 +1,4 @@
-@extends('Admin.auth.app')
+@extends('admin.auth.app')
 @section('content')
 <div id="ajax-content" class="light h-v d-flex flex align-items-center">
     <div class="mx-auto w-xl w-auto-xs animate fadeIn text-center" style="width: 340px;padding: 30px;background: #eee;">
