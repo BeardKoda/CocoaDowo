@@ -33,6 +33,6 @@ class Sponsor extends Authenticatable
   }
 
   public function investment(){
-    return $this->hasOne('App\investment', 'user_id');
+    return $this->hasMany('App\investment', 'user_id');
   }
 }

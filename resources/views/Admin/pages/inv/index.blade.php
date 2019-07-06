@@ -25,6 +25,7 @@
                     <th style="width:20px"><label class="ui-check m-0"><input
                                 type="checkbox"><i></i></label></th>
                     <th class="text-muted"></th>
+                    <th class="text-muted" data-toggle-class="asc">Sponsor</th>
                     <th class="text-muted" data-toggle-class="asc">Item</th>
                     <th class="text-muted">Status</th>
                     <th class="text-muted">Payment Id</th>
@@ -47,6 +48,12 @@
                         <a href="#" class="avatar w-32" data-toggle="tooltip" title="Velit,">
                             <img src="/admincss/assets/img/user.png" alt=".">
                         </a>
+                    </td>
+                    <td class="flex">
+                        <a href="#" class="item-title text-color">{{$user->user->name}}</a>
+                        <div class="item-except text-muted text-sm h-1x">
+                            {{$user->user->email}}
+                        </div>
                     </td>
                     <td class="flex">
                         <a href="#" class="item-title text-color">{{$user->product->name}}</a>

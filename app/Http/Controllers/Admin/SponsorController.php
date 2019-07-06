@@ -24,7 +24,7 @@ class SponsorController extends Controller
         ],
         'sponsors' => $Sponsors,
       ];
-      return view('admin.pages.Sponsors.index', $response);
+      return view('admin.pages.sponsors.index', $response);
     }
     
     public function getPremiumSponsors(){

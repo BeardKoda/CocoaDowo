@@ -24,6 +24,10 @@ class investment extends Model
         return $this->hasOne('App\product', 'id', 'product_id');
     }
     
+    public function user(){
+        return $this->belongsTo('App\Sponsor');
+    }
+
     public function add($id){
         $product = product::find($id);
         $exists = $this->where('product_id', $product->id)->where('plan_id', $product->plan_id)
