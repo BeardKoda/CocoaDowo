@@ -31,4 +31,8 @@ class Sponsor extends Authenticatable
   public function profile(){
     return $this->hasOne('App\UserProfile', 'sponsor_id');
   }
+
+  public function investment(){
+    return $this->hasOne('App\investment', 'user_id');
+  }
 }

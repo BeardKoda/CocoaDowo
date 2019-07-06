@@ -22,6 +22,7 @@ class CreateUserProfilesTable extends Migration
             $table->string('city');
             $table->string('state');
             $table->string('Country');
+            $table->string('updated');
             $table->timestamps();
         });
     }

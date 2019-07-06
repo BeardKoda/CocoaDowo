@@ -21,7 +21,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="card card-icon mb-4">
                         <div class="card-body text-center">
-                        <a class="nav-item-hold" href="#user/investment">
+                        <a class="nav-item-hold" href="{{route('investments')}}">
                             <i class="i-Environmental-3"></i>
                             <p class="text-muted mt-2 mb-2">Investment Plans</p>
                         </a>
@@ -32,7 +32,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="card card-icon mb-4">
                         <div class="card-body text-center">
-                        <a class="nav-item-hold" href="#user/locations">
+                        <a class="nav-item-hold" href="{{route('locations')}}">
                             <i class="i-Landscape1"></i>
                             <p class="text-muted mt-2 mb-2">Browse All Locations</p>
                         </a>

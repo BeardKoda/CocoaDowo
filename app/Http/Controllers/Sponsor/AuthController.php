@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use App\Sponsor;
+use App\UserProfile;
 use Auth;
 use Activate;
 use Mail;
@@ -19,11 +20,11 @@ class AuthController extends Controller
     }
     //
     public function showLoginForm(){
-      return view('Sponsor.Auth.login');
+      return view('Sponsor.auth.login');
     }
 
     public function showRegisterForm(){
-      return view('Sponsor.Auth.register');
+      return view('Sponsor.auth.register');
     }
 
     public function Login(Request $request){
@@ -107,5 +108,36 @@ class AuthController extends Controller
       } catch (Exception $ex) {
         dd($ex);
       }
+    }
+
+    
+    public function saveProfile(Request $request){
+        $profile = UserProfile::where('sponsor_id', Auth::user()->id)->first();
+        if(is_null($profile)){
+          $saved = UserProfile::create([
+            'sponsor_id' => Auth::user()->id,
+            'firstname' => " - ",
+            'lastname' => " - ",
+            'address' => " - ",
+            'city' => " - ",
+            'state' => " - ",
+            'Country' => " - ",
+            'updated' => 0
+          ]);
+          if($saved){
+          return back()->with('success', 'profile Succefully Updated');
+          }
+        }else{
+          // dd($profile);
+          $profile->firstname = $request->input('firstname');
+          $profile->lastname = $request->input('lastname');
+          $profile->address = $request->input('address');
+          $profile->city = $request->input('city');
+          $profile->state = $request->input('state');
+          $profile->Country = $request->input('Country');
+          if($profile->save()){
+            return back()->with('success', 'profile Succefully Updated');
+          }
+        }
     }
 }

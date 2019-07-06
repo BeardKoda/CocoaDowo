@@ -1,3 +1,5 @@
+
+
 <?php
 
 return [
@@ -40,11 +42,17 @@ return [
             'driver' => 'session',
             'provider' => 'sponsors',
         ],
+        
         'sponsors' =>[
           'driver' => 'session',
           'provider' => 'sponsors'
         ],
-        
+
+        'admin' => [
+            'driver' => 'session',
+            'provider' => 'admins',
+        ],
+
         'api' => [
             'driver' => 'token',
             'provider' => 'users',
@@ -73,9 +81,15 @@ return [
             'driver' => 'eloquent',
             'model' => App\User::class,
         ],
+
+        'admins' => [
+            'driver' => 'eloquent',
+            'model' => App\Admin::class,
+        ],
+
         'sponsors' => [
           'driver' => 'eloquent',
-          'model' => App\sponsor::class,
+          'model' => App\Sponsor::class,
         ],
 
         // 'users' => [

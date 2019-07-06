@@ -44,8 +44,6 @@
                                     <a href="#about"><i class="i-Library"></i>About </a>
                                     <a href="#blog"><i class="i-Drop"></i> Blog</a>
                                     <a href="#forum"><i class="i-File-Clipboard-File--Text"></i> Forum</a>
-
-
                                 </div>
                             </div>
 
@@ -110,13 +108,6 @@
                         </a>
                         <div class="triangle"></div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-item-hold" href="{{route('locations')}}" target="_blank">
-                            <i class="nav-icon i-Safe-Box1"></i>
-                            <span class="nav-text">Doc</span>
-                        </a>
-                        <div class="triangle"></div>
-                    </li>
                 </ul>
             </div>
 
@@ -124,19 +115,23 @@
 
                 <ul class="childNav" data-parent="sessions">
                     <li class="nav-item">
+                        <a href="{{route('investments')}}">
+                            <i class="nav-icon i-Environmental-3"></i>
+                            <span class="item-name">Investments</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{route('investments.myindex')}}">
+                            <i class="nav-icon i-Environmental-3"></i>
+                            <span class="item-name">My Current Investments</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a href="{{route('settings')}}">
                             <i class="nav-icon i-Gear"></i>
                             <span class="item-name">Settings</span>
                         </a>
                     </li>
-
-                    <li class="nav-item">
-                        <a href="{{route('payments')}}">
-                            <i class="nav-icon i-Credit-Card-2"></i>
-                            <span class="item-name">Payments</span>
-                        </a>
-                    </li>
-
                 </ul>
 
             </div>

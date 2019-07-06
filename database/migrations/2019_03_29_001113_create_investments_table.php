@@ -17,6 +17,9 @@ class CreateInvestmentsTable extends Migration
             $table->increments('id');
             $table->string('user_id');
             $table->double('product_id');
+            $table->double('plan_id');
+            $table->string('txr_id')->default(0);
+            $table->string('status');
             $table->timestamps();
         });
     }
