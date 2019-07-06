@@ -14,9 +14,6 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="row row-sm">
-                                    <div class="col-3"><small class="text-muted">No Admins</small>
-                                        <div class="mt-2 font-weight-500">{{count($admins)}}</div>
-                                    </div>
                                     <div class="col-3"><small class="text-muted">Active Farms</small>
                                         <div class="text-highlight mt-2 font-weight-500">{{count($products)}}</div>
                                     </div>
