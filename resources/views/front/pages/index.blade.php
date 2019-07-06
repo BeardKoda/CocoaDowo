@@ -53,7 +53,7 @@
                                 </div>
                                 <div class="product-text">
                                     <h4><a href="{{route('product', $product->id)}}">{{$product->name}}</a></h4>
-                                    <h6>{{$product->type_->name}}</h6>
+                                    
                                     
                                     <div class="pro-price">
                                         <span>Funding Commtment: N50,000.00</span>
