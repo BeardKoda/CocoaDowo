@@ -2,7 +2,7 @@
 @section('content')
 
             <!-- breadcrumb-area-start -->
-            <div class="" style="background-image:url(img/bg/bg15.jpg)">
+            <div class="" style="background-image:url(/front/img/bg/bg15.jpg)">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
