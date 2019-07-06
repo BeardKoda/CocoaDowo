@@ -14,17 +14,17 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="row row-sm">
-                                    <div class="col-3"><small class="text-muted">Artist</small>
+                                    <div class="col-3"><small class="text-muted">No Admins</small>
+                                        <div class="mt-2 font-weight-500">{{count($admins)}}</div>
+                                    </div>
+                                    <div class="col-3"><small class="text-muted">Active Farms</small>
                                         <div class="text-highlight mt-2 font-weight-500">{{count($products)}}</div>
                                     </div>
-                                    <div class="col-3"><small class="text-muted">Users</small>
-                                        <div class="mt-2 font-weight-500">{{count($users)}}</div>
+                                    <div class="col-3"><small class="text-muted">No of Investments</small>
+                                        <div class="mt-2 font-weight-500"><span class="text-info">{{$P_count}}</span></div>
                                     </div>
-                                    <div class="col-3"><small class="text-muted">Premium User</small>
-                                        <div class="mt-2 font-weight-500"><span class="text-info">{{$P_count}}</span> user</div>
-                                    </div>
-                                    <div class="col-3"><small class="text-muted">Premium Artists</small>
-                                        <div class="mt-2 font-weight-500"><span class="text-info">{{$U_count}}</span> user</div>
+                                    <div class="col-3"><small class="text-muted">No of Sponsors</small>
+                                        <div class="mt-2 font-weight-500"><span class="text-info">{{$U_count}}</span></div>
                                     </div>
                                 </div>
                             </div>

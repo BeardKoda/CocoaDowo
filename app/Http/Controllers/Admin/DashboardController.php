@@ -8,6 +8,7 @@ use App\product;
 use App\investment;
 use App\Sponsor;
 use App\location;
+use App\Admin;
 
 class DashboardController extends Controller
 {
@@ -22,10 +23,11 @@ class DashboardController extends Controller
 
     }
 
-    public function index(Sponsor $user, Product $product, investment $investments)
+    public function index(Sponsor $user, Product $product, investment $investments, Admin $admin)
     {
         $products = $product->all();
         $Users = $user->all();
+        $Admins = $admin->count();
         $P_count = $product->count();
         $U_count = $user->count();
         $I_count = $investments->latest()->count();
@@ -36,6 +38,7 @@ class DashboardController extends Controller
             'breadcrumb' => 'Home'
           ],
           'users' => $Users,
+          'admins' => $Admins,
           'products' => $products,
           'I_count' => $I_count,
           'P_count' => $P_count,
