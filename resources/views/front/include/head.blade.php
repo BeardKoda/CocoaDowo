@@ -4,6 +4,22 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="Cocoadowo is an agroforestry enterprise offering an end to end agriculture services with a strong commitment to deforestation-free cocoa farming and increased food security.">
+        <meta name="keywords" content="creative, works, showcase, portfolio, highlight, projects, modern, brindocorp, digital, studio, css, animation, transition, freelancers">
+        <!-- SOCIAL MEDIA META -->
+        <meta property="og:description" content="Cocoadowo is an agroforestry enterprise offering an end to end agriculture services with a strong commitment to deforestation-free cocoa farming and increased food security.">
+        <meta property="og:image" content="http://www.cocoadowo.com/front/img/logo/logo.png">
+        <meta property="og:site_name" content="Cocoadowo">
+        <meta property="og:title" content="Cocoadowo">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://www.cocoadowo.com">
+        <!-- TWITTER META -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@cocoadowo">
+        <meta name="twitter:creator" content="@cocoadowo">
+        <meta name="twitter:title" content="cocoadowo">
+        <meta name="twitter:description" content="Cocoadowo is an agroforestry enterprise offering an end to end agriculture services with a strong commitment to deforestation-free cocoa farming and increased food security.">
+        <meta name="twitter:image" content="http://www.cocoadowo.com/front/img/logo/logo.png">
         <title>Cocoadowo - World Class Digital Agroforestery Enterprise </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
