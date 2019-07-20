@@ -10,12 +10,12 @@
                     </div>
                 </div>
                 <div class="footer-bottom border-top pt-3 d-flex flex-column flex-sm-row align-items-center">
-                    <a class="btn btn-primary text-white btn-rounded" href="https://cocoadowo.com/about" target="_blank">Read More</a>
+                    <a class="btn btn-primary text-white btn-rounded" style="background-color:rgb(125, 186, 47); border-color: rgb(125, 186, 47);" href="https://cocoadowo.com/about" target="_blank">Read More</a>
                     <span class="flex-grow-1"></span>
                     <div class="d-flex align-items-center">
-                        <img class="logo" src="/sponsor/assets-2/images/logo.png" alt="">
+                        <img class="logo" src="/logo.jpg" alt="">
                         <div>
-                            <p class="m-0">&copy; 2019 CocoaDowo | Developed by <a href="https://brindocorp.co">Brindocorp</a></p>
+                            <p class="m-0">&copy; 2019 CocoaDowo | Developed by <a style="color:rgb(125, 186, 47); border-color: rgb(125, 186, 47);" href="https://brindocorp.co">Brindocorp</a></p>
                             <p class="m-0">All rights reserved</p>
                         </div>
                     </div>

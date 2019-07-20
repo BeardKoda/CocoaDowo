@@ -226,6 +226,14 @@ label {
 .breadcrumb > .active {
 	color: #888;
 }
+.header-right ul {
+	display: inline-flex;
+}
+.header-right ul li a.header-btn {
+	font-size: 14px;
+	padding: 6px 20px;
+	border-radius: 10px;
+}
 
 /* scrollUp */
 #scrollUp {
@@ -325,8 +333,8 @@ label {
 .pos-rel {
 	position: relative;
 }
-.header-logo {
-	margin-top: 3px;
+.header-logo  a img {
+	vertical-align: super;
 }
 .heder-button{}
 .heder-button a.btn {
@@ -338,7 +346,13 @@ label {
 	font-size: 13px;
 }
 .heder-button a.btn:hover{background:#86ba09;color:#fff;border-color:#86ba09;}
-
+.main-menu {
+	float: right;
+}
+.main-menu::after {
+	content: "";
+	clear: both;
+}
 .menu-bar {
 	width: 20px;
 	padding-top: 22px;
@@ -431,7 +445,10 @@ label {
 }
 
 .side-menu ul li:hover a {
-  color: #ff4a57; }
+	color: #ff4a57; }
+.h-86 {
+	height: 86px;
+}
 .header-right {
 	margin-left: 35px;
 	margin-top: 24px;
@@ -517,7 +534,7 @@ label {
 /* header 3 */
 .header-2-menu .main-menu nav > ul > li > a {
 	color: #252525;
-	padding: 42px 0;
+	padding: 36px 0;
 	text-transform: capitalize;
 }
 .header-2-menu .header-lang {
@@ -527,14 +544,14 @@ label {
 	margin-right: 50px;
 }
 .header-2-menu .menu-bar {
-	padding-top: 37px;
+	padding-top: 25px;
 }
 .header-2-menu .header-right ul li {
 	margin-left: 20px;
 }
 .header-2-menu .header-right {
 	margin-right: 65px;
-	margin-top: 39px;
+	margin-top: -25px;
 }
 .header-2-menu{}
 .header-icon {
@@ -613,10 +630,11 @@ label {
 	text-transform: capitalize;
 	margin-bottom: 48px;
 	margin-top: 29px;
+	color: white;
 }
 .slider-text a.btn {
-	background: #fff;
-	color: #525470;
+	background: #1c6d22;
+	color: #fff;
 	transition: .3s;
 }
 .slider-text a.btn:hover{background: #f29c1f;color:#fff;}
@@ -707,7 +725,7 @@ label {
 	margin-bottom: 17px;
 }
 .section-title h1 {
-	font-size: 55px;
+	font-size: 42px;
 	font-weight: 500;
 	line-height: 1.1;
 	text-transform: uppercase;
@@ -770,7 +788,7 @@ label {
 	padding-right: 10px;
 }
 .about1-img {
-	margin-left: -85px;
+	padding: 0 0 0 90px;
 }
 .about2-img {
 	margin-left: -75px;
@@ -879,13 +897,20 @@ label {
 
 /* 6. product */
 .product-wrapper {
-	background: #f1f6fa;
-	padding: 50px 0 43px 0;
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	padding: 0 0 10px 0;
 	border-radius: 10px;
+	cursor: pointer;
 	position: relative;
+	transition: .9s ease;
+}
+.product-wrapper:hover {
+	box-shadow: 3px 4px 8px #ddd;
+	transform: translateY(2%)
 }
 .product-img {
-	margin-bottom: 36px;
+	margin-bottom: 14px;
 }
 .product-img > a{}
 .product-img > a img {}
@@ -922,6 +947,10 @@ label {
 	padding: 0 2px;
 }
 .pro-price{}
+
+.pro-price h3 {
+	color: #f3b323
+}
 .pro-price span {
 	font-size: 14px;
 	color: #6e6e6e;

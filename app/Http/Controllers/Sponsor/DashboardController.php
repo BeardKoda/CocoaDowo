@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Sponsor;
 
 use Illuminate\Http\Request;
 use Auth;
+use App\investment;
+use App\Type;
 use App\Sponsor;
 use App\UserProfile;
 use App\Http\Controllers\Controller;
@@ -15,8 +17,15 @@ class DashboardController extends Controller
         $this->middleware('auth');
     }
 
-    public function index(){
-      return view('Sponsor.pages.dashboard');
+    public function index(investment $investment, Type $type){
+        $type = $type->all();
+        $products =$investment->where('user_id', Auth::user()->id)->latest()->first();
+        $response = [
+            "types" => $type,
+            'product' =>$products
+        ];
+        // dd($response);
+      return view('Sponsor.pages.dashboard', $response);
     }
 
     public function investments(){

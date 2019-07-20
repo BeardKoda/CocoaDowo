@@ -30,7 +30,11 @@ $('#mobile-menu').meanmenu({
 
 // data - background
 $("[data-background]").each(function () {
-	$(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
+	$(this).css({
+		"background": "linear-gradient(rgba(61, 124, 56, 0.8), rgba(0, 0, 0, 0.5)), url(" + $(this).attr("data-background") + ")",
+		"background-position": "center",
+		"background-size": "cover"
+	})
 })
 
 

@@ -1,4 +1,3 @@
-
             <!-- footer-area-start -->
             <footer>
                 <div class="footer-area footer1 grey1-bg pt-75">
@@ -10,7 +9,10 @@
                                         <h4>About Us</h4>
                                     </div>
                                     <div class="footer2-text">
-                                        <p>Cocoadowo is a digital agroforestery enterprise offering an equity-based and reward based campaign for climate-smart cocoa production.</p>
+                                        <p>Cocoadowo is an agroforestry
+                                            enterprise offering an end to end agriculture services with strong
+                                            commitment on
+                                            deforestation-free cocoa farming and increased food security.</p>
                                     </div>
                                     <ul class="footer-address">
                                         <li>
@@ -19,11 +21,14 @@
                                         </li>
                                         <li>
                                             <strong>Email Us :</strong>
-                                            <p><a href="http://bdevs.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6c1f191c1c031e182c0b010d0500420f0301">[email&#160;protected]</a></p>
+                                            <p><a href="http://bdevs.net/cdn-cgi/l/email-protection"
+                                                    class="__cf_email__"
+                                                    data-cfemail="6c1f191c1c031e182c0b010d0500420f0301">[email&#160;protected]</a>
+                                            </p>
                                         </li>
                                         <li>
                                             <strong>Phone Us :</strong>
-                                            <p>+234 816 507 8196</p>
+                                            <p>+234 816 507 8136</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -32,7 +37,7 @@
                                 <div class="footer-wrapper pl-45 mb-30">
                                     <div class="footer-title">
                                         <h4>COMPANY</h4>
-                                        
+
                                     </div>
                                     <ul class="fotter-menu">
                                         <li><a href="#">About Us</a></li>
@@ -56,7 +61,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            
+
                             <div class="col-xl-3 col-lg-3 col-md-6">
                                 <div class="footer-wrapper pl-20 mb-30">
                                     <div class="footer-title">
@@ -78,7 +83,8 @@
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="copyright text-center">
-                                        <p>Copyright <i class="far fa-copyright"></i> 2019 <a href="#">Brindocorp</a>. All Rights Reserved</p>
+                                        <p>Copyright <i class="far fa-copyright"></i> 2019 <a href="#">Brindocorp</a>.
+                                            All Rights Reserved</p>
                                     </div>
                                 </div>
                             </div>
@@ -86,7 +92,7 @@
                     </div>
                 </div>
             </footer>
-            <!-- footer-area-end-->
+            <!-- footer-area-end -->
         </main>
         <!-- JS here -->
         <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/front/js/vendor/modernizr-3.5.0.min.js"></script>

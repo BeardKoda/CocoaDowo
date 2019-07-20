@@ -9,7 +9,7 @@ class FrontController extends Controller
 {
     //
     public function index(Product $product){
-        $products = $product->paginate(8);
+        $products = $product->paginate(4);
         // dd($users);
         $response = [
           'products' => $products

@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="/sponsor/assets-2/styles/vendor/datatables.min.css">
     <link rel="stylesheet" href="/sponsor/assets-2/styles/css/themes/lite-purple.min.css">
+    <link rel="stylesheet" href="/sponsor/assets-2/styles/css/themes/custom.css">
     <link rel="stylesheet" href="/sponsor/assets-2/styles/vendor/perfect-scrollbar.css">
 </head>
 
@@ -16,7 +17,7 @@
     <div class="app-admin-wrap">
         <div class="main-header">
             <div class="logo">
-                <img src="/sponsor/assets-2/images/logo.png" alt="">
+                <img src="/logo.jpg" alt="">
             </div>
 
             <div class="menu-toggle">
@@ -71,10 +72,10 @@
 
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
                             <div class="dropdown-header">
-                                <i class="i-Lock-User mr-1"></i> {{Auth::user()->name}}
+                                <i class="i-Lock-User mr-1"></i> {{Auth::user()->name}}, {{Auth::user()->email}}
                             </div>
-                            <a class="dropdown-item" href="#user/settings">Account settings</a>
-                            <a class="dropdown-item" href="#user/billing">Billing history</a>
+                            <a class="dropdown-item" href="">Account settings</a>
+                            <a class="dropdown-item" href="">Transaction history</a>
                             <a class="dropdown-item" href="{{route('logout')}}">Logout</a>
                         </div>
                     </div>

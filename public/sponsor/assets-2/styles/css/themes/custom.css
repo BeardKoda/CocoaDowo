@@ -1,0 +1,43 @@
+.card-icon [class^="i-"] {
+    color: rgb(125, 186, 47);
+}
+
+.card-icon-big [class^="i-"] {
+    font-size: 48px;
+    color: rgb(125, 186, 47);
+}
+
+.sidebar-left .navigation-left .nav-item.active .triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 0;
+    bottom: 0;
+    border-style: solid;
+    border-width: 0 0 30px 30px;
+    border-color: transparent transparent rgb(125, 186, 47);
+}
+
+.sidebar-left .navigation-left .nav-item.active .nav-item-hold {
+    color: rgb(125, 186, 47);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: rgb(125, 186, 47);
+    border-color: rgb(125, 186, 47);
+}
+
+.btn-outline-primary {
+    color: rgb(125, 186, 47);
+    background-color: transparent;
+    background-image: none;
+    border-color: rgb(125, 186, 47);
+}
+
+.btn-outline-primary:hover{
+    color: #fff;
+    background-color: rgb(125, 186, 47);
+    background-image: none;
+    border-color: rgb(125, 186, 47);
+}
