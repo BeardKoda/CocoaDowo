@@ -121,7 +121,7 @@
                         <p>Farm project can be funded from a debit card, via internet banking and by bank deposit. Upon maturity of investment, interest and capital are paid into the sponsors verified bank account.
                             We perform due diligence to ensure proper farm management by our farmer partners and provide sponsors with real-time update on funded farm project including a process and income flowchart, making it easy to track farm project at every stage of development.
                         </p>
-                    <a class="btn" href="#">see more farmers</a>
+                    <a class="btn" href="{{route('farmers')}}">see more farmers</a>
                 </div>
             </div>
             <div class="col-xl-7 col-lg-7">

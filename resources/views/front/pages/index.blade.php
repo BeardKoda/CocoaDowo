@@ -19,7 +19,7 @@
                                     agroforestry
                                     enterprise offering an end to end agriculture services with strong commitment on
                                     deforestation-free cocoa farming and increased food security.</h4>
-                                <a class="btn" href="#" data-animation="fadeInUp" data-delay=".7s">Get Started</a>
+                                <a class="btn" href="{{route('register')}}" data-animation="fadeInUp" data-delay=".7s">Get Started</a>
                             </div>
                         </div>
                     </div>
@@ -171,7 +171,7 @@
                         <div class="row">
                             <div class="col-xl-12">
                                 <div class="product-button product1-button mt-30 text-center">
-                                    <a class="btn" href="#">View more</a>
+                                    <a class="btn" href="{{route('products')}}">View more</a>
                                 </div>
                             </div>
                         </div>
@@ -205,7 +205,7 @@
                                             in the world.
                                         </p>
                                         
-                                        <a class="btn" href="#">Learn More</a>
+                                        <a class="btn" href="{{route('about')}}">Learn More</a>
                                     </div>
                                 </div>
                             </div>

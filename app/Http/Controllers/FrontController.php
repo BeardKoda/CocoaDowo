@@ -30,5 +30,18 @@ class FrontController extends Controller
           'product' => $products
       ];
       return view('front.pages.product', $response);
+    }//
+
+    public function products(Product $product){
+        $products = $product->paginate(10);
+        // dd($users);
+        $response = [
+          'products' =>$products
+      ];
+      return view('front.pages.products', $response);
+    }//
+
+    public function farmers(Product $product){
+      return view('front.pages.farmers');
     }
 }

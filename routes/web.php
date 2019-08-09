@@ -19,6 +19,8 @@
 // front Page Routes
 Route::get('/','FrontController@index')->name('home');
 Route::get('/about','FrontController@about')->name('about');
+Route::get('/farmers','FrontController@farmers')->name('farmers');
+Route::get('/products','FrontController@products')->name('products');
 Route::get('/product/descritpion/{id}','FrontController@product')->name('product');
 
 Route::prefix('')->group(function(){
