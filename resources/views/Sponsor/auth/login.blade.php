@@ -36,6 +36,7 @@
                                 </div>
                             </a>
                         </div>
+                              @include('flash')
                         <div class="page-links">
                             <a href="" class="active">Login</a><a href="{{route('register')}}">Register</a>
                         </div>

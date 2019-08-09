@@ -58,6 +58,7 @@ class DashboardController extends Controller
       if($valid){
         $profile = UserProfile::where('sponsor_id', Auth::user()->id)->first();
         if(is_null($profile)){
+          // dd("woow");
           $saved = UserProfile::create([
             'sponsor_id' => Auth::user()->id,
             'firstname' => $request->input('firstname'),
@@ -66,12 +67,12 @@ class DashboardController extends Controller
             'city' => $request->input('city'),
             'state' => $request->input('state'),
             'Country' => $request->input('Country'),
+            'updated' => 1,
           ]);
           if($saved){
           return back()->with('success', 'profile Succefully Updated');
           }
         }else{
-          // dd($profile);
           $profile->firstname = $request->input('firstname');
           $profile->lastname = $request->input('lastname');
           $profile->address = $request->input('address');

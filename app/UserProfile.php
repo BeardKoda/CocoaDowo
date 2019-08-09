@@ -8,7 +8,7 @@ class UserProfile extends Model
 {
     //
    protected $fillable = [
-       'firstname', 'lastname', 'address', 'city', 'state', 'Country', 'sponsor_id',
+       'firstname', 'lastname', 'address', 'city', 'state', 'Country', 'sponsor_id', 'updated'
    ];
 
     public function sponsor()

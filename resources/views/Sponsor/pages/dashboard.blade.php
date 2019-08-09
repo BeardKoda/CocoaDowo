@@ -109,6 +109,7 @@
                                 </thead> -->
                                 <br />
                                 <tbody>
+                                    @if($product != null)
                                     <tr>
                                         <td>Product Investment</td>
                                         <td class="font-weight-bold"> {{$product->product->name}}</td>
@@ -125,8 +126,11 @@
                                         <td>Amount Invested</td>
                                         <td class="font-weight-bold">N{{$product->product->price}}</td>
                                     </tr>
-
-
+                                    @else
+                                    <tr>
+                                        <td>No Investments yet</td>
+                                    </tr>                                    
+                                    @endif
                                 </tbody>
                             </table>
                         </div>
@@ -147,7 +151,7 @@
                             <p class="m-0 text-small text-muted">{{$type->description}}</p>
                         </div>
                         <div>
-                            <a class="btn btn-outline-primary btn-rounded btn-sm" href="{{route('investment-product', $product['id'])}}">Suscribe</a>
+                            <a class="btn btn-outline-primary btn-rounded btn-sm" href="{{route('investment-type', $type['id'])}}">Suscribe</a>
                         </div>
                     </div>
                     @endforeach

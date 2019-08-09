@@ -32,7 +32,9 @@ $array = array(array('metaname' => 'color', 'metavalue' => 'blue'),
                     </thead>
                     <tbody>
                     @if(count($products) == 0)
-                    <tr colspan="8">No Investments Yet</tr>
+                    <tr>
+                        <td colspan="8">No Investments Yet</td>
+                    </tr>
                     @else
                         @foreach($products as $product)
                         <tr>
