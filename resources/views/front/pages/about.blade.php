@@ -36,7 +36,7 @@
                             Farmers place their various demand related agri-input, farm visit and agri-output through mobile application and also get last mile services through assigned field agent within the region.
                             </p>
                     </div>
-                    <a class="btn" href="#">Get Started</a>
+                    <a class="btn" href="{{route('register')}}">Get Started</a>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6">
