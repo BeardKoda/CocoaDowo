@@ -358,7 +358,7 @@
                                             <span>welcome to Cocoadowo</span>
                                             <h1>Want To Invest in Cocoa Farming??</h1>
 
-                                            <a class="btn" href="#">Get Started</a>
+                                            <a class="btn" href="{{route('register')}}">Get Started</a>
                                         </div>
                                     </div>
                                 </div>
