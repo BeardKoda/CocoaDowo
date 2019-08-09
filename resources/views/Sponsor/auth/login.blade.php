@@ -22,8 +22,7 @@
             <div class="img-holder">
                 <div class="bg"></div>
                 <div class="info-holder">
-                    <h3>Get more things done with Loggin platform.</h3>
-                    <p>Access to the most powerfull tool in the entire design and web industry.</p>
+                    <h3>Get more things done with Cocoadowo.</h3>
                     <img src="/fauth/images/graphic4.svg" alt="">
                 </div>
             </div>

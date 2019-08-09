@@ -9,10 +9,12 @@ class FrontController extends Controller
 {
     //
     public function index(Product $product){
-        $products = $product->paginate(4);
+        $Lproducts = $product->where('type', 1)->paginate(2);
+        $Rproducts = $product->where('type', 2)->paginate(2);
         // dd($users);
         $response = [
-          'products' => $products
+          'Lproducts' => $Lproducts,
+          'Rproducts' =>$Rproducts
       ];
       return view('front.pages.index', $response);
     }
@@ -22,9 +24,9 @@ class FrontController extends Controller
     }
 
     public function product($id, Product $product){
-    	$products = $product->find($id);
-        // dd($users);
-        $response = [
+      $products = $product->find($id);
+
+      $response = [
           'product' => $products
       ];
       return view('front.pages.product', $response);

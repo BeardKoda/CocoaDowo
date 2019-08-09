@@ -74,7 +74,7 @@
                         <p>Our team understand the challenges in agribusiness and we’re happy to offer our personal expertise to achieve long-term capital appreciation through investment of pooled funds from farm sponsors into cultivation of carefully selected high quality crop varieties.<br>
                                 We operate with climate-smart best practices by avoiding expansion into forest reserves on participating farms, target the most appropriate cocoa soils, focus on extension and inputs, promote use of reusable plant nursery bags, crop yield insurance and a data management platform to monitor and measure mitigation impact of our farmer partners.
                                 </p>
-                        
+
                     </div>
 
                     <ul class="nav we-do-tab mb-40" id="myTab" role="tablist">
@@ -115,12 +115,12 @@
                         <div class="section-icon">
                             <img src="/front/img/icon/icon5.png" alt="">
                         </div>
-                        <h1>our farmers</h1>
-                        <p>At Cocoadowo, we engage farmer partners to practice this agroforestry technique to ensure quick cover, reduce weed infestation, reduce management costs and increase financial performance.</p>
-                    </div>
-                    <p>Farm project can be funded from a debit card, via internet banking and by bank deposit. Upon maturity of investment, interest and capital are paid into the sponsors verified bank account.
-                        We perform due diligence to ensure proper farm management by our farmer partners and provide sponsors with real-time update on funded farm project including a process and income flowchart, making it easy to track farm project at every stage of development.
-                    </p>
+                            <h1>our farmers</h1>
+                            <p>At Cocoadowo, we engage farmer partners to practice this agroforestry technique to ensure quick cover, reduce weed infestation, reduce management costs and increase financial performance.</p>
+                        </div>
+                        <p>Farm project can be funded from a debit card, via internet banking and by bank deposit. Upon maturity of investment, interest and capital are paid into the sponsors verified bank account.
+                            We perform due diligence to ensure proper farm management by our farmer partners and provide sponsors with real-time update on funded farm project including a process and income flowchart, making it easy to track farm project at every stage of development.
+                        </p>
                     <a class="btn" href="#">see more farmers</a>
                 </div>
             </div>
@@ -183,7 +183,7 @@
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="team-wrapper mb-30">
                             <div class="team-img">
-                                <img src="/front/img/team/team4.jpg" alt="">
+                                <img src="/front/img/team/team3.jpg" alt="">
                                 <div class="team-text">
                                     <h4>Morris V. Vasquez</h4>
                                     <span>Organic Farmers</span>
@@ -205,7 +205,7 @@
 </div>
 <!-- team-area-end -->
 
-<!-- testimonial-area-start -->
+<!-- testimonial-area-start
 <div class="testimonial-area pt-120 pb-120">
     <div class="container">
         <div class="row">
@@ -265,6 +265,6 @@
              </div>
          </div>
      </div>
-</div>
+</div> -->
 <!-- testimonial-area-end -->
 @endsection
