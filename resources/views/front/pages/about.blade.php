@@ -41,10 +41,10 @@
             </div>
             <div class="col-xl-6 col-lg-6">
                 <div class="about-2-img text-lg-right mb-30">
-                    <img src="/front/img/about/about2.jpg" alt="">
+                    <img src="/front/img/about/farmer4.jpg" alt="">
                     <div class="about-video-img">
                         <div class="pos-relative">
-                            <img src="/front/img/about/about3.jpg" alt="">
+                            <img src="/front/img/about/about4.jpg" alt="">
                             <div class="about-video-icon">
                                 <a class="play-btn popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4"><i class="fa fa-play"></i></a>
                             </div>
@@ -129,72 +129,28 @@
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="team-wrapper mb-30">
                             <div class="team-img">
-                                <img src="/front/img/team/team1.jpg" alt="">
-                                <div class="team-text">
-                                    <h4>Morris V. Vasquez</h4>
-                                    <span>Organic Farmers</span>
-                                    <div class="team-social-icon">
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="#"><i class="fab fa-youtube"></i></a>
-                                        <a href="#"><i class="fab fa-behance"></i></a>
-                                    </div>
-                                </div>
+                                <img src="/front/img/about/farmer3.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="team-wrapper mb-30">
                             <div class="team-img">
-                                <img src="/front/img/team/team2.jpg" alt="">
-                                <div class="team-text">
-                                    <h4>Morris V. Vasquez</h4>
-                                    <span>Organic Farmers</span>
-                                    <div class="team-social-icon">
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="#"><i class="fab fa-youtube"></i></a>
-                                        <a href="#"><i class="fab fa-behance"></i></a>
-                                    </div>
-                                </div>
+                                <img src="/front/img/about/farmer2.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="team-wrapper mb-30">
                             <div class="team-img">
-                                <img src="/front/img/team/team3.jpg" alt="">
-                                <div class="team-text">
-                                    <h4>Morris V. Vasquez</h4>
-                                    <span>Organic Farmers</span>
-                                    <div class="team-social-icon">
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="#"><i class="fab fa-youtube"></i></a>
-                                        <a href="#"><i class="fab fa-behance"></i></a>
-                                    </div>
-                                </div>
+                                <img src="/front/img/about/farmer6.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="team-wrapper mb-30">
                             <div class="team-img">
-                                <img src="/front/img/team/team3.jpg" alt="">
-                                <div class="team-text">
-                                    <h4>Morris V. Vasquez</h4>
-                                    <span>Organic Farmers</span>
-                                    <div class="team-social-icon">
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="#"><i class="fab fa-youtube"></i></a>
-                                        <a href="#"><i class="fab fa-behance"></i></a>
-                                    </div>
-                                </div>
+                                <img src="/front/img/about/farmer5.jpeg" alt="">
                             </div>
                         </div>
                     </div>
@@ -205,66 +161,97 @@
 </div>
 <!-- team-area-end -->
 
-<!-- testimonial-area-start
-<div class="testimonial-area pt-120 pb-120">
+<!-- team-area-start -->
+<div class="team-area pos-relative pb-10">
     <div class="container">
         <div class="row">
             <div class="col-xl-6 col-lg-6 offset-lg-3 offset-xl-3">
-                <div class="section-title text-center section-title-cap mb-65">
-                    <div class="section-icon">
-                        <img src="/front/img/icon/icon6.png" alt="">
+                <div class="section-title section-title-cap text-center mb-70">
+                    <div class="section-icon section1-icon">
+                        <img src="/front/img/icon/icon5.png" alt="">
                     </div>
-                    <h1>client’s say</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmotempor incididunt labore dolore magna aliqua minim veniam</p>
+                    <h1>Our Team</h1>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-xl-10 col-lg-10 offset-lg-1 offset-xl-1">
-                <div class="testimonial-active owl-carousel">
-                    <div class="testimonial-wrapper text-center">
-                        <div class="testimonial-icon">
-                            <i class="fas fa-quote-right"></i>
-                        </div>
-                        <div class="testimonial-text">
-                            <p> Borem ipsum dolor sit amet consectetur adipisic ing elit sed do eiusmod tempor incididunt ut labore et dolore magaliqu enim ainim veniam.</p>
-                            <h3>Johnny J. Stewart</h3>
-                            <span>Web Designer</span>
-                        </div>
-                        <div class="testimonial-img">
-                            <img src="/front/img/testimonial/test.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="testimonial-wrapper text-center">
-                        <div class="testimonial-icon">
-                            <i class="fas fa-quote-right"></i>
-                        </div>
-                        <div class="testimonial-text">
-                            <p> Borem ipsum dolor sit amet consectetur adipisic ing elit sed do eiusmod tempor incididunt ut labore et dolore magaliqu enim ainim veniam.</p>
-                            <h3>Johnny J. Stewart</h3>
-                            <span>Web Designer</span>
-                        </div>
-                        <div class="testimonial-img">
-                            <img src="/front/img/testimonial/test.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="testimonial-wrapper text-center">
-                        <div class="testimonial-icon">
-                            <i class="fas fa-quote-right"></i>
-                        </div>
-                        <div class="testimonial-text">
-                            <p> Borem ipsum dolor sit amet consectetur adipisic ing elit sed do eiusmod tempor incididunt ut labore et dolore magaliqu enim ainim veniam.</p>
-                            <h3>Johnny J. Stewart</h3>
-                            <span>Web Designer</span>
-                        </div>
-                        <div class="testimonial-img">
-                            <img src="/front/img/testimonial/test.png" alt="" />
+            <div class="col-xl col-lg col-md-4 col-xs-6">
+                <div class="team-wrapper single-team mb-30">
+                    <div class="team-img">
+                        <img src="/front/img/team/team1.jpg" alt="">
+                        <div class="team-text">
+                            <h4>Segun Joshua</h4>
+                            <div class="team-social-icon">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-             </div>
-         </div>
-     </div>
-</div> -->
-<!-- testimonial-area-end -->
+            </div>
+            <div class="col-xl col-lg col-md-4 col-xs-6">
+                <div class="team-wrapper single-team mb-30">
+                    <div class="team-img">
+                        <img src="/front/img/team/team2.jpg" alt="">
+                        <div class="team-text">
+                            <h4>Joshua Akinsuyi</h4>
+                            <div class="team-social-icon">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl col-lg col-md-4 col-xs-6">
+                <div class="team-wrapper single-team mb-30">
+                    <div class="team-img">
+                        <img src="/front/img/team/team3.jpg" alt="">
+                        <div class="team-text">
+                            <h4>Fredick Imoni</h4>
+                            <div class="team-social-icon">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl col-lg col-md-6 col-xs-6">
+                <div class="team-wrapper single-team mb-30">
+                    <div class="team-img">
+                        <img src="/front/img/team/team4.jpg" alt="">
+                        <div class="team-text">
+                            <h4>Sodiq Adesina</h4>
+                            <div class="team-social-icon">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl col-lg col-md-6 col-xs-12">
+                <div class="team-wrapper single-team mb-30">
+                    <div class="team-img">
+                        <img src="/front/img/team/team5.jpg" alt="">
+                        <div class="team-text">
+                            <h4>Oluwadamilola Ayoka</h4>
+                            <div class="team-social-icon">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- team-area-end -->
 @endsection

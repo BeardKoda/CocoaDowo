@@ -1404,11 +1404,11 @@ label {
 }
 .team-wrapper:hover .team-text{opacity:1;}
 .team-text h4 {
-	font-size: 18px;
+	font-size: 14px;
 	color: #fff;
 	font-weight: 500;
 	text-transform: uppercase;
-	margin-bottom: 2px;
+	margin-bottom: 1px;
 }
 .team-text span {
 	font-size: 14px;
@@ -1438,6 +1438,7 @@ label {
 	padding: 40px 32px 50px 32px;
 	transition: .3s;
 	opacity: 0;
+	height:130px;
 }
 .team-01 {
 	left: 5%;
