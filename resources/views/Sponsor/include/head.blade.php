@@ -62,13 +62,13 @@
 
             <div class="header-part-right">
                 <!-- Full screen toggle -->
-                <i class="i-Full-Screen header-icon d-none d-sm-inline-block" data-fullscreen></i>
+                <!-- <i class="i-Full-Screen header-icon d-none d-sm-inline-block" data-fullscreen></i> -->
                 <!-- Grid menu Dropdown -->
 
                <!-- User avatar dropdown -->
                 <div class="dropdown">
                     <div class="user colalign-self-end">
-                        <img src="/sponsor/assets-2/images/faces/1.jpg" id="userDropdown" alt="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="/sponsor/assets-2/images/faces/1.png" id="userDropdown" alt="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
                             <div class="dropdown-header">
@@ -94,9 +94,21 @@
                         </a>
                         <div class="triangle"></div>
                     </li>
-
-                    <li class="nav-item" data-item="sessions">
-                        <a class="nav-item-hold" href="#user/profile">
+                    <li class="nav-item">
+                        <a  class="nav-item-hold" href="{{route('wallet')}}">
+                            <i class="nav-icon i-Money"></i>
+                            <span class="item-name">Wallet</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" data-item="activity">
+                        <a class="nav-item-hold" href="#user/activity">
+                            <i class="nav-icon i-Optimization"></i>
+                            <span class="nav-text">Activities</span>
+                        </a>
+                        <div class="triangle"></div>
+                    </li>
+                    <li class="nav-item" data-item="profile">
+                        <a class="nav-item-hold" href="user/profile">
                             <i class="nav-icon i-Administrator"></i>
                             <span class="nav-text">Profile</span>
                         </a>
@@ -111,10 +123,19 @@
                     </li>
                 </ul>
             </div>
-
+            
             <div class="sidebar-left-secondary" data-perfect-scrollbar data-suppress-scroll-x="true">
-
-                <ul class="childNav" data-parent="sessions">
+                <!-- Profile -->
+                <ul class="childNav" data-parent="profile">
+                    <li class="nav-item">
+                        <a href="{{route('settings')}}">
+                            <i class="nav-icon i-Gear"></i>
+                            <span class="item-name">Settings</span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- Activity -->
+                <ul class="childNav" data-parent="activity">
                     <li class="nav-item">
                         <a href="{{route('investments')}}">
                             <i class="nav-icon i-Environmental-3"></i>
@@ -127,16 +148,9 @@
                             <span class="item-name">My Current Investments</span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a href="{{route('settings')}}">
-                            <i class="nav-icon i-Gear"></i>
-                            <span class="item-name">Settings</span>
-                        </a>
-                    </li>
                 </ul>
-
-            </div>
             <div class="sidebar-overlay"></div>
+            </div>
         </div>
         <!--=============== Left side End ================-->
 

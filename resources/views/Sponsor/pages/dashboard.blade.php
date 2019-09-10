@@ -43,7 +43,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="card card-icon mb-4">
                         <div class="card-body text-center">
-                        <a class="nav-item-hold" href="#user/forum">
+                        <a class="nav-item-hold" href="https://t.me/cocoadowo">
                             <i class="i-Speach-Bubble-Dialog"></i>
                             <p class="text-muted mt-2 mb-2">Cocoa Community</p>
                         </a>
@@ -55,7 +55,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="card card-icon-big mb-4">
                         <div class="card-body text-center">
-                        <a class="nav-item-hold" href="#user/bibiliography">
+                        <a class="nav-item-hold" href="{{route('about')}}">
                             <i class="i-Farmer"></i>
                             <p class="text-muted mt-2 mb-2">Bibiliography</p>
                         </a>
@@ -65,7 +65,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="card card-icon-big mb-4">
                         <div class="card-body text-center">
-                        <a class="nav-item-hold" href="#user/settings">
+                        <a class="nav-item-hold" href="{{route('settings')}}">
                             <i class="i-Gear"></i>
                             <p class="text-muted mt-2 mb-2">Settings</p>
                         </a>
@@ -148,7 +148,7 @@
                         <img class="avatar-md rounded mr-3" src="/front/img/about/cocoa.jpg" alt="">
                         <div class="flex-grow-1">
                             <h6 class="m-0">{{$type->name}}</h6>
-                            <p class="m-0 text-small text-muted">{{$type->description}}</p>
+                            <p class="m-0 text-small text-muted">{{ substr(strip_tags($type->description), 0, 100) }}{{ strlen(strip_tags($type->description)) > 50 ? "..." : "" }} </p>
                         </div>
                         <div>
                             <a class="btn btn-outline-primary btn-rounded btn-sm" href="{{route('investment-type', $type['id'])}}">Suscribe</a>

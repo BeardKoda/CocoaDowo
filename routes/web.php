@@ -18,10 +18,10 @@
 
 // front Page Routes
 Route::get('/','FrontController@index')->name('home');
-Route::get('/about','FrontController@about')->name('about');
-Route::get('/farmers','FrontController@farmers')->name('farmers');
-Route::get('/products','FrontController@products')->name('products');
-Route::get('/product/descritpion/{id}','FrontController@product')->name('product');
+Route::get('/about.html','FrontController@about')->name('about');
+Route::get('/farmers.html','FrontController@farmers')->name('farmers');
+Route::get('/products.html','FrontController@products')->name('products');
+Route::get('/product/descritpion/{id}.html','FrontController@product')->name('product');
 
 Route::prefix('')->group(function(){
   Route::get('/login','Sponsor\AuthController@showLoginForm')->name('login');
@@ -34,6 +34,7 @@ Route::prefix('')->group(function(){
     Route::get('/dashboard', 'Sponsor\DashboardController@index')->name('dashboard');
     Route::get('/locations', 'Sponsor\DashboardController@locations')->name('locations');
     Route::get('/investments', 'Sponsor\InvestmentController@index')->name('investments');
+    Route::get('/wallet', 'Sponsor\WalletController@index')->name('wallet');
     Route::get('/investment/all', 'Sponsor\InvestmentController@myindex')->name('investments.myindex');
     Route::get('/investment/type/{id}', 'Sponsor\InvestmentController@type')->name('investment-type');
     Route::get('/investment/product/{id}', 'Sponsor\InvestmentController@payForm')->name('investment-product');

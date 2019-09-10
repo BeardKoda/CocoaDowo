@@ -18,7 +18,8 @@
                         <div class="card-body text-center">
                             <i class="i-Environmental-3"></i>
                             <h4 class="text-muted mt-2 mb-2">{{$type->name}}</h4>
-                            <!-- <p class="text-muted mt-2 mb-2">{{$type->description}}</p> -->
+                            <br />
+                            <p class="text-muted mt-2 mb-2">{{$type->description}}</p>
                             <br />
                         <a class="nav-item-hold btn btn-primary btn-rounded" href="{{route('investment-type', $type->id)}}">Invest Now
                         </a>
