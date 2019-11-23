@@ -74,8 +74,8 @@
                             <div class="dropdown-header">
                                 <i class="i-Lock-User mr-1"></i> {{Auth::user()->name}}, {{Auth::user()->email}}
                             </div>
-                            <a class="dropdown-item" href="">Account settings</a>
-                            <a class="dropdown-item" href="">Transaction history</a>
+                            <a class="dropdown-item" href="{{route('settings')}}">Account settings</a>
+                            <a class="dropdown-item" href="{{route('investments.myindex')}}">Transaction history</a>
                             <a class="dropdown-item" href="{{route('logout')}}">Logout</a>
                         </div>
                     </div>
@@ -145,7 +145,7 @@
                     <li class="nav-item">
                         <a href="{{route('investments.myindex')}}">
                             <i class="nav-icon i-Environmental-3"></i>
-                            <span class="item-name">My Current Investments</span>
+                            <span class="item-name">Investments History</span>
                         </a>
                     </li>
                 </ul>

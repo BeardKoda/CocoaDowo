@@ -16,10 +16,6 @@
                     <li><a href="{{route('admin.dashboard')}}"><span class="nav-icon text-primary"><i
                                     data-feather="home"></i></span> <span class="nav-text">Dashboard</span></a></li>
                     <li class="nav-header hidden-folded"><span class="text-muted">Applications</span></li>
-                    <!-- <li><a href="app.calendar.html"><span class="nav-icon text-info"><i data-feather="calendar"></i>
-                        </span> <span class="nav-text">Calendar</span> <span class="nav-badge">
-                        <b class="badge-circle xs text-danger"></b></span></a>
-                    </li> -->
                     <li><a href="#"><span class="nav-icon text-info">
                         <i data-feather="users"></i></span> <span class="nav-text">Admins</span><span class="nav-caret"></span></a>
                         <ul class="nav-sub nav-mega">
@@ -38,10 +34,17 @@
                         </ul>
                     </li>
                     <li><a href="#"><span class="nav-icon text-success">
-                        <i data-feather="users"></i></span> <span class="nav-text">Farms</span><span class="nav-caret"></span></a>
+                        <i data-feather="users"></i></span> <span class="nav-text">Farmers</span><span class="nav-caret"></span></a>
                         <ul class="nav-sub nav-mega">
-                            <li><a href="{{route('products.index')}}" class=""><span class="nav-text">All Farms</span></a></li>
-                            <li><a href="{{route('products.create')}}" class=""><span class="nav-text">Add New Farm</span></a></li>
+                            <li><a href="{{route('admin-farmers')}}" class=""><span class="nav-text">All Farmers</span></a></li>
+                            <li><a href="{{route('admin-farmer-new')}}" class=""><span class="nav-text">Add New Farmer</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span class="nav-icon text-success">
+                        <i data-feather="users"></i></span> <span class="nav-text">Products</span><span class="nav-caret"></span></a>
+                        <ul class="nav-sub nav-mega">
+                            <li><a href="{{route('products.index')}}" class=""><span class="nav-text">All Products</span></a></li>
+                            <li><a href="{{route('products.create')}}" class=""><span class="nav-text">Add New Product</span></a></li>
                             <!-- <li><a href="{{route('admin-suspended')}}" class=""><span class="nav-text">Suspended Sponsor</span></a></li> -->
                         </ul>
                     </li>

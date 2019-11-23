@@ -35,4 +35,13 @@ class Sponsor extends Authenticatable
   public function investment(){
     return $this->hasMany('App\investment', 'user_id');
   }
+  
+  public function verify($request){
+    return $request->validate([
+        'name' => 'required|string|max:255',
+        'email' => 'required|unique:farmers|string',
+        'type' => 'required',
+        'password' => 'required'
+    ]);
+}
 }

@@ -57,7 +57,7 @@
                         <div class="card-body text-center">
                         <a class="nav-item-hold" href="{{route('about')}}">
                             <i class="i-Farmer"></i>
-                            <p class="text-muted mt-2 mb-2">Bibiliography</p>
+                            <p class="text-muted mt-2 mb-2">FAQ</p>
                         </a>
                         </div>
                     </div>

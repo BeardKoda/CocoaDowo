@@ -89,6 +89,20 @@ Route::prefix('admin')->group(function(){
         Route::get('/unsuspend/{id}', 'Admin\SponsorController@activate')->name('admin-users-unsuspend');
         Route::get('/delete/{id}', 'Admin\SponsorController@delete')->name('admin-users-delete');
       });
+      
+      Route::prefix('Farmers')->group(function(){
+        Route::get('/', 'Admin\FarmerController@getFarmers')->name('admin-farmers');
+        Route::get('/suspended', 'Admin\FarmerController@getSuspendedFarmers')->name('admin-suspended-farmer');
+        Route::get('/deleted', 'Admin\FarmerController@getDeletedFarmers')->name('admin-deleted-farmer');
+        Route::get('/new', 'Admin\FarmerController@add')->name('admin-farmer-new');
+        Route::post('/new', 'Admin\FarmerController@store')->name('admin-farmer-add');
+        Route::get('/edit/{id}', 'Admin\FarmerController@edit')->name('admin-farmer-edit');
+        Route::post('/edit/{id}', 'Admin\FarmerController@update')->name('admin-farmer-save');
+        Route::get('/suspend/{id}', 'Admin\FarmerController@deactivate')->name('admin-farmer-suspend');
+        Route::get('/unsuspend/{id}', 'Admin\FarmerController@activate')->name('admin-farmer-unsuspend');
+        Route::get('/delete/{id}', 'Admin\FarmerController@delete')->name('admin-farmer-delete');
+      });
+
       Route::resource('/products', 'Admin\ProductController');
       Route::resource('/investments', 'Admin\InvestmentController');
     });

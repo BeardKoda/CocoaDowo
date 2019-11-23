@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>{{ config('app.name', 'Laravel') }} |  @yield('title') </title>
+    <title>{{ config('app.name') }} - Admin |  @yield('title') </title>
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="description" content="" />
