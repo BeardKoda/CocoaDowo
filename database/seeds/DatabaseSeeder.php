@@ -58,14 +58,14 @@ class DatabaseSeeder extends Seeder
         //         "type" => 2,
         //     ]
         // ]);
-        // DB::table('admins')->insert([
-        //     [
-        //         'name' => 'Admin1',
-        //         'email' => 'admin@alto.com',
-        //         'position' => 'Super_admin',
-        //         'password' => bcrypt('123456')
-        //     ],
-        // ]); 
+        DB::table('admins')->insert([
+            [
+                'name' => 'Admin1',
+                'email' => 'admin@cocoadowo.com',
+                'position' => 'Super_admin',
+                'password' => bcrypt('123456')
+            ],
+        ]); 
         // DB::table('types')->insert([
         //     [
         //         'name' => "Cocoa Lite Plan",
