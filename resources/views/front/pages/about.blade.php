@@ -7,10 +7,6 @@
             <div class="col-xl-12">
                 <div class="breadcrumb-text text-center">
                     <h1>About Us</h1>
-                    <ul class="breadcrumb-menu">
-                        <li><a href="index.html">home</a></li>
-                        <li><span>About Us</span></li>
-                    </ul>
                 </div>
             </div>
         </div>

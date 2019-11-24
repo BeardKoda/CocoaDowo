@@ -15,17 +15,38 @@
 
                                 <h2>Intercropped {{$product->name}}</h2>
                                 <!-- <h2>Cocoa Intercropped With Maize {{$product->name}}</h2> -->
-                                <h6>Project Duration:</h6><span>10 Years</span>
-                                <h6>Location:</h6><span>Ago-Owu, Osun State</span>
-                                <h3>Rate of returns</h3>
-                                <h6>11%/yr before cocoa maturity (5years)</span></h6>
-                                <h6>18%/yr at cocoa maturity (5years)</span></h6>
-                                <br>
-                                <h3>Investment Calculator</h3>
-                                <h6>Funding Commitment:</h6><span>N{{$product->price}}</span>
-                                <h6>Returns before cocoa maturity (per annum) </h6><span>N6,000.00</span>
-                                <h6>Returns after cocoa maturity (per annum) </h6><span>N9,000.00</span>
-                                <h6>Net Reimbursement: </h6><span>N125,000.00</span>
+                                <table>
+                                    <tr>
+                                        <th>Project Duration:</th>
+                                        <td>10 Years</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Location:</th>
+                                        <td>Ago-Owu, Osun State</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Rate of returns</th>
+                                        <td>11%/yr before cocoa maturity (5years). <br>18%/yr at cocoa maturity (5years)</td>
+                                    </tr>
+                                    <tr><br><br><th colspan="3" class="text-center"><br/><h6>Investment Calculator</h6><br/></th></tr>
+                                    <tr>
+                                        <th>Funding Commitment:</th>
+                                        <td>N{{$product->price}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Returns before cocoa maturity <br />(per annum)</th>
+                                        <td>N6,000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Returns after  cocoa maturity <br />(per annum)</th>
+                                        <td>N9,000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Net Reimbursement:</th>
+                                        <td>N125,000.00</td>
+                                    </tr>
+                                </table>
+                                
                                 <br>
                                 <h3>Project Details</h3>
                                 <p>Cocoa is a perennial crop and investment in its production is long term. Better

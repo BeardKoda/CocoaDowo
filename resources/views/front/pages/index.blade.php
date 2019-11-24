@@ -214,7 +214,7 @@
                     <!-- about-us-area-end -->
 
                     <!-- features-area-start -->
-                    <div class="features-area pt-70 pb-40" style="background-image:url(/front/img/bg/bg1.jpg)">
+                    <div class="features-area pt-70 pb-40" style="background:#eee">
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 offset-lg-3 offset-xl-3">
@@ -243,7 +243,7 @@
                                 <div class="col-xl-3 col-lg-3 col-md-6">
                                     <div class="features-wrapper text-center mb-30">
                                         <div class="features-img">
-                                            <img src="/front/img/features/2.png" width="100px" alt="" />
+                                            <img src="/front/img/features/7.png" width="100px" alt="" />
                                         </div>
                                         <div class="features-text">
                                             <h6>Reward Based Farm Sponsorships Plans</h6>
@@ -253,11 +253,10 @@
                                 <div class="col-xl-3 col-lg-3 col-md-6">
                                     <div class="features-wrapper text-center mb-30">
                                         <div class="features-img">
-                                            <img src="/front/img/features/3.png" width="100px" alt="" />
+                                            <img src="/front/img/features/2.png" width="100px" alt="" />
                                         </div>
                                         <div class="features-text">
-                                            <h6>Return of Investment Calculator</h6>
-
+                                            <h6>Wallet</h6>
                                         </div>
                                     </div>
                                 </div>

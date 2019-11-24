@@ -206,7 +206,7 @@ label {
 	-moz-user-select: none;
 	background: #86ba09;
 	border: medium none;
-	border-radius: 30px;
+	border-radius: 5px;
 	color: #fff;
 	display: inline-block;
 	font-size: 14px;
@@ -229,10 +229,14 @@ label {
 .header-right ul {
 	display: inline-flex;
 }
+
+.header-right ul li a.header-btn:hover{background:#ef8829;color:#fff;}
 .header-right ul li a.header-btn {
 	font-size: 14px;
 	padding: 6px 20px;
-	border-radius: 10px;
+	border-radius: 5px;
+	background: #1c6d22;;
+	color:#fff
 }
 
 /* scrollUp */

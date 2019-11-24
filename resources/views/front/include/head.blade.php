@@ -60,9 +60,8 @@
                                     <li><a href="{{route('about')}}">About</a></li>
                                     <li><a href="">Blog</a></li>
                                     <li><a href="">Contact</a></li>
-                                    <li class="li-btn"><a class="btn" href="{{route('login')}}">Login</a></li>
-                                    <li class="li-btn"><a class="btn" href="{{route('register')}}">Sign Up</a></li>
-
+                                    <li class="li-btn"><a href="{{route('login')}}">Login</a></li>
+                                    <li class="li-btn"><a href="{{route('register')}}" >Sign Up</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -85,7 +84,7 @@
                             </div>
                             <div class="header-right f-right d-none d-md-block">
                                 <ul>
-                                    <li class="unser-icon"><a href="{{route('login')}}" class="btn header-btn"> Login</a>
+                                    <li><a href="{{route('login')}}" class="btn header-btn"> Login</a>
                                     </li>
                                 </ul>
                             </div>

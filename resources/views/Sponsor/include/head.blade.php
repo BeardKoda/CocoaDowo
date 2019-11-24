@@ -34,9 +34,8 @@
                         <div class="row m-0">
                             <div class="col-md-4 p-4 bg-img">
                                 <h2 class="title">About <br> Cocoadowo</h2>
-                                <p>CocoaDowo is Nigeria's premier agroforestry enterprise offering an equity based campaign for cocoa production. </p>
-                                <p class="mb-4">We accelerate investment in long-term sustainable production of cocoa with a dividend paying model for consistent growth over time.</p>
-                                <button class="btn btn-lg btn-rounded btn-outline-warning">Learn More</button>
+                                <p>Cocoadowo is an agroforestry enterprise offering an end to end agriculture services with strong commitment on deforestation-free cocoa farming and increased food security. </p>
+                                <a class="btn btn-lg btn-rounded btn-outline-warning" href="/about.html">Learn More</a>
                             </div>
                             <div class="col-md-4 p-4">
                                 <p class="text-primary text--cap border-bottom-primary d-inline-block">More on CocoaDowo</p>
