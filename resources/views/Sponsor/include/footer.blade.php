@@ -4,8 +4,7 @@
                 <div class="row">
                     <div class="col-md-9">
                         <p><strong>CocoaDowo - Smart Digital Farming Platform</strong></p>
-                        <p>CocoaDowo is Nigeria's premier agroforestry enterprise offering an equity based campaign for cocoa production. We accelerate investment in long-term sustainable production of cocoa with a dividend paying model for consistent growth
-                            over time.
+                        <p>Cocoadowo is an agroforestry enterprise offering an end to end agriculture services with strong commitment on deforestation-free cocoa farming and increased food security.
                         </p>
                     </div>
                 </div>

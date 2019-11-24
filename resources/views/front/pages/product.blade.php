@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-xl-6 col-lg-6">
                 <div class="about1-img bounce-animate mb-30">
-                    <img src="/front/img/about/1.png" width="700px" alt="" />
+                    <img src="/front/img/about/cocoa.jpg" width="500px" alt="" />
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 ">

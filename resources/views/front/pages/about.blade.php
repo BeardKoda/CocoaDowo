@@ -64,7 +64,7 @@
         <div class="row">
             <div class="col-xl-6 col-lg-6">
                 <div class="we-do-img">
-                    <img src="/front/img/bg/what.png" alt="">
+                    <!-- <img src="/front/img/about/cocoa.jpg" width="200px" alt=""> -->
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6">
