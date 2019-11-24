@@ -38,6 +38,7 @@ Route::prefix('')->group(function(){
     Route::get('/investment/all', 'Sponsor\InvestmentController@myindex')->name('investments.myindex');
     Route::get('/investment/type/{id}', 'Sponsor\InvestmentController@type')->name('investment-type');
     Route::get('/investment/product/{id}', 'Sponsor\InvestmentController@payForm')->name('investment-product');
+    Route::get('/transactions', 'Sponsor\InvestmentController@getTransactions')->name('transactions');
     // Route::get('/payments', 'Sponsor\InvestmentController@payForm')->name('payments');
     // payment
     Route::post('/pay', 'Sponsor\PayController@initialize')->name('pay');

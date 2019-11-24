@@ -2,10 +2,10 @@
 
 @section('content')
 <div class="breadcrumb">
-    <h1>Investments Plans</h1>
+    <h1>All Transactions</h1>
     <ul>
         <li><a href="#">CocoaDowo</a></li>
-        <li>All Investments</li>
+        <li>All Transactions</li>
     </ul>
 </div>
 

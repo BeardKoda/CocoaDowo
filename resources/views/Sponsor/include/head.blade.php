@@ -75,7 +75,7 @@
                                 <i class="i-Lock-User mr-1"></i> {{Auth::user()->name}}, {{Auth::user()->email}}
                             </div>
                             <a class="dropdown-item" href="{{route('settings')}}">Account settings</a>
-                            <a class="dropdown-item" href="{{route('investments.myindex')}}">Transaction history</a>
+                            <a class="dropdown-item" href="{{route('transactions')}}">Transaction history</a>
                             <a class="dropdown-item" href="{{route('logout')}}">Logout</a>
                         </div>
                     </div>

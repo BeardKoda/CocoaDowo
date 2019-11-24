@@ -67,4 +67,13 @@ class InvestmentController extends Controller
     public function payPlan(){
         return view('Sponsor.pages.payplan');
     }
+    
+    public function getTransactions(investment $investment){
+        $products =$investment->where('user_id', Auth::user()->id)->get();
+        $response = [
+            'products' => $products
+        ];
+        // dd($response);
+        return view('Sponsor.pages.transactions', $response);
+    }
 }

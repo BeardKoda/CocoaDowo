@@ -5,7 +5,7 @@
     <h1>Investments Plans</h1>
     <ul>
         <li><a href="#">CocoaDowo</a></li>
-        <li>Blank Page</li>
+        <li>All Investments</li>
     </ul>
 </div>
 
