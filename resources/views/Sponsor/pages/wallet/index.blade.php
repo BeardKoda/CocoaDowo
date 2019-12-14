@@ -16,7 +16,7 @@
                     <div class="card card-icon-big mb-4">
                         <div class="card-body text-center">
                             <i class="i-Environmental-3"></i>
-                            <h4 class="text-muted mt-2 mb-2">Withdrawal</h4>
+                            <h4 class="text-muted mt-2 mb-2">Withdraw</h4>
                             <p class="text-muted mt-2 mb-2"></p>
                             <br />
                         <a class="nav-item-hold btn btn-primary btn-rounded" href="#">Widthrawal Now
